@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Test App</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	
+	
+	  
+    
+       <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    
+ 
+	
+    <!-- Styles -->
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/bootstrap-responsive.min.css" type="text/css" rel="stylesheet">
+	<link href="css/jquery.jtweetsanywhere-1.3.1.css" media="all" type="text/css" rel="stylesheet">
+	<link rel="stylesheet" href="css/mosaic.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+	<link href="ico/favicon.ico" rel="shortcut icon">
+	<link href="ico/apple-touch-icon-144-precomposed.png" sizes="144x144" rel="apple-touch-icon-precomposed">
+	<link href="ico/apple-touch-icon-114-precomposed.png" sizes="114x114" rel="apple-touch-icon-precomposed">
+	<link href="ico/apple-touch-icon-72-precomposed.png" sizes="72x72" rel="apple-touch-icon-precomposed">
+	<link href="ico/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon-precomposed">
+	
+		  </head>
+	 
+	   <body> 
+	
+	 <!-- Navbar
+    ================================================== -->
+
+<div class="container wrapper">   
+   <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            	<span class="icon-eject icon-white"></span>         
+          </a>
+         <b><a class="brand" href="./index.html">I need fooood!</a></b>
+          <div class="nav-collapse collapse">
+            	<ul class="nav pull-right">
+	            	<li class="active">
+	                	 <a href="./index.html"><i class="icon-home icon-white"></i> Home</a>
+	                </li>
+	                <li class="">
+	               		 <a href="./"><i class="icon-envelope icon-white"></i> Contact</a>
+	                </li>
+	                <li class="">
+	                	 <a href="./order.html"><i class="icon-shopping-cart icon-white"></i> Order</a>
+	                </li>
+	                <li class="divider-vertical"></li>
+             
+	                <li class="dropdown"  id="menu1">
+            		 	 <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="main.html">
+	            		 	<i class="icon-user icon-white"></i> Account<b class="caret"></b>
+	            	     </a>
+	            	<ul class="dropdown-menu">
+					    <li><a href="#">This is a drop!</a></li>
+						<li><a href="#">This is a 2nd drop!</a></li>
+						<li class="divider"></li>
+						<li><a href="#">This is a separate drop!</a></li>
+			       </ul>
+		           </li>
+		      </ul>
+          
+          </div><!--end nav-collapse-->
+        
+        
+         
+
+        
+    </div><!--end Navbar Container-->
+  </div><!--end navbar-inner-->
+      
+      
+    <form class="well form-inline ordernow">
+    	<h3>Παραγγείλετε online τώρα!</h3><br>
+	    <input type="text" class="input-small" placeholder="Όνομα">
+	    <input type="text" class="input-small" placeholder="Επώνυμο">
+	    <input type="text" class="input-small" placeholder="Τηλέφωνο">
+	    <input type="text" class="input-small" placeholder="Διεύθυνση">
+	    <input type="text" class="input-small" placeholder="Αριθμός">
+	    <input type="text" class="input-small" placeholder="Τ.Κ.">
+	    <label class="checkbox">
+	    		<input type="checkbox"> <span>Θυμίσου με!</span></label>
+	    <button type="submit" class="btn">GO!</button>
+    </form>
+
+</div><!--end navbar-->
+
+   
+    
+<div class="row">   
+  <div class="span8"><!--=========== Desktop only===========-->
+    
+          <div class="flexslider  visible-desktop m4fcarousel">
+            <ul class="slides" >
+                <li>
+                        <img src="img/inacup_donut.jpg" />
+                        <p class="flex-caption">yummy</p>
+                </li>
+                <li>
+                        <a href="#"><img src="img/inacup_pumpkin.jpg" /></a>
+                        <p class="flex-caption">Order Now!</p>
+                </li>
+                <li>
+                        <img src="img/inacup_samoa.jpg" />
+                </li>
+            </ul>
+          </div>
+            <!--end flexslider-->
+     
+       </div><!--/Span-->
+   
+  
+<div class="span4">
+        <div class="top5 well visible-desktop">
+  		<h2>Top 5 Παραγγελίες</h2>
+  		<ol>
+		    <li>Σαλάτα Καίσαρα</li>
+		    <li>Fredo Cappucino</li>
+		    <li>Κρέπα Εξοχικό</li>
+		    <li>Club Sandwich</li>
+		    <li>Κρητικός Ντάκος</li>
+	   </ol>
+
+	   <h2>Σας Προτείνουμε</h2>
+	   <ul>
+		    <li>Κρέπα Σπέσιαλ</li>
+		    <li>Σαλάτα Ανάμιχτη</li>
+		    <li>Club Γαλοπούλα</li>
+		    <li>Χυμός Φρέσκος Πορτοκάλι</li>
+		    <li>Σαλάτα Καίσαρα</li>
+	  </ul>
+
+	  </div><!--/top5-->
+ </div><!--/span--><!--============/Desktop Only========-->
+   
+  <!--================== Mobile Only ==================-->      
+  <div class="span12">
+     
+          <div class="flexslider hidden-desktop m4fcarousel">
+            <ul class="slides" >
+                <li>
+                        <img src="img/inacup_donut.jpg" />
+                        <p class="flex-caption">yummy</p>
+                </li>
+                <li>
+                        <a href="#"><img src="img/inacup_pumpkin.jpg" /></a>
+                        <p class="flex-caption">Order Now!</p>
+                </li>
+                <li>
+                        <img src="img/inacup_samoa.jpg" />
+                </li>
+            </ul>
+          </div>
+            <!--end flexslider-->
+  </div><!--/Span-->
+</div><!--/Container-->  
+  
+<div class="container secondary">
+  <div class="row">
+   	<div class="span4 tweetwidget"><!-- ******* Tweet Widget *********** -->
+	  			<h3>Tweets!</h3>
+	  			<p class="jTweetsAnywhereSample"></p>
+	</div><!--/Tweet Widget -->   		 	
+  	 	<!--============== Mobile only ==========================-->		     		
+  	<div class="span4 top5small visible-tablet visible-phone">
+  				<h2>Top 5 Παραγγελίες</h2>
+  				<ol>
+				    <li>Σαλάτα Καίσαρα</li>
+				    <li>Fredo Cappucino</li>
+				    <li>Κρέπα Εξοχικό</li>
+				    <li>Club Sandwich</li>
+				    <li>Κρητικός Ντάκος</li>
+			    </ol>
+  	</div>
+
+  	<div class="span4 suggestsmall visible-tablet visible-phone">
+  				<h2>Σας Προτείνουμε</h2>
+  			    <ul>
+				    <li>Κρέπα Σπέσιαλ</li>
+				    <li>Σαλάτα Ανάμιχτη</li>
+				    <li>Club Γαλοπούλα</li>
+				    <li>Χυμός Φρέσκος Πορτοκάλι</li>
+				    <li>Σαλάτα Καίσαρα</li>
+			   </ul>
+
+	</div><!--/span-->
+
+  
+  <!--==== Desktop Only =======-->
+    
+   <div class="span4 visible-desktop">
+        <div class="mosaic-block bar">
+			<a href="http://buildinternet.com/project/mosaic" target="_blank" class="mosaic-overlay">
+				<div class="details">
+					<h4>Mosaic - Sliding Boxes and Captions jQuery Plugin</h4>
+					<p>by Build Internet</p>
+				</div>
+			</a>
+			<div class="mosaic-backdrop"><img src="http://www.vivaldicafe.com/wp-content/uploads/auzora_portfolio/20110127sandvic.jpg"/></div></div>
+   </div><!--/span-->
+             
+   	<div class="span4 visible-desktop">
+        <ul class="thumbnails">
+        		<li class="span4">
+        	<div class="thumbnail">
+        		<img src="http://placehold.it/400x280" alt="">
+			    <h5>Thumbnail label</h5>
+			    <p>Thumbnail caption right here...</p>
+		   </div>
+		   		</li>
+		   		</ul>
+           </div>
+   </div><!--/span-->
+    <!--==== /Desktop Only =======-->
+
+  
+ </div><!--/row-->
+
+	     
+
+<footer class="footer">
+  
+ 	
+  
+  <span class="pull-right"><a href="#">&copy; 2012 Bigsoup</a></span>
+  
+  
+  
+  
+  
+  
+  
+</footer><!--footer-->
+  
+</div><!--/Container-->
+  
+  
+  
+  <!-- Scripts: inc. TableSorter -->
+  
+       <!--  <script src="http://code.jquery.com/jquery-1.5.2.min.js"></script> -->
+   <!--  <script src="http://autobahn.tablesorter.com/jquery.tablesorter.min.js"></script> -->
+   			<script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
+			<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+   			<script type="text/javascript" src="js/bootstrap.min.js"></script>
+   			
+   			
+   		<!-- 	<script type="text/javascript" src="js/bootstrap-carousel.js"></script> -->
+   			<!-- <script type="text/javascript" src="js/jquery-ui-1.8.20.custom.min.js"></script> -->
+      		<script type="text/javascript" src="js/jquery.jtweetsanywhere-1.3.1.min.js"></script>
+   			<script type="text/javascript" src="js/mosaic.1.0.1.min.js"></script> 			
+            <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
